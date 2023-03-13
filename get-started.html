@@ -36,22 +36,12 @@
                 </div>
             </div>
         </div>
-    </nav><link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-  <script>
-    $( function() {
-      $( "#datepicker" ).datepicker();
-    } );
-    </script>
-<section class="py-4 py-xl-5" style="background: url('assets/img/images/home-bg-image-1.png'), linear-gradient(rgb(0,53,113), #000000);">
+    </nav><section class="py-4 py-xl-5" style="background: url('assets/img/images/home-bg-image-1.png'), linear-gradient(rgb(0,53,113), #000000);">
     <div class="container d-flex align-items-center min-vh-100" style="margin-top: -45px;">
         <div class="row g-0 justify-content-center" style="margin-top: -50px;">
             <div class="col-lg-4 offset-lg-1 mx-0 px-0">
                 <div id="title-container" style="background: url('assets/img/images/home-bg-image-1.png'), rgb(0, 53, 113);"><img class="covid-image" src="assets/img/images/F1.png" style="opacity: 1;transform: rotateY(170deg);" />
-                    <h2><strong>Get Started</strong></h2>
-                    <h3 style="color: var(--bs-green);">[Blank]</h3>
+                    <h2><strong>Dispute</strong></h2>
                     <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus massa lacus, venenatis gravida sem condimentum non. Nam vitae commodo arcu. Phasellus ac orci accumsan ante vehicula aliquam. </strong></p>
                 </div>
             </div>
@@ -64,143 +54,82 @@
                         <div id="steps-container">
                             <div class="step">
                                 <h4>Provide us with your personal information</h4>
-                                <div class="mt-1"><label class="form-label">Complete Name:</label><input id="full_name" class="form-control" type="text" name="full_name" /></div>
-                                <div class="mt-2"><label class="form-label">Birthdate:</label><input type="text" class="form-control"  id="datepicker" name="birthdate"></div>
-                                <div class="mt-2"><label class="form-label">Social Security No.:</label><input id="address" class="form-control" type="text" name="socialsecurity" /></div>
-                                <div class="mt-2"><label class="form-label">Email:</label><input id="address" class="form-control" type="text" name="email" /></div>
-                                <div class="mt-2"><label class="form-label">Phone / Mobile Number:</label><input id="phone" class="form-control" type="text" name="phone" /></div>
-                                <div class="mt-2"><label class="form-label">Phone Carrier:</label><input id="address" class="form-control" type="text" name="phone_carrier" /></div>
+                                <div class="mt-1"><label class="form-label form-label">Complete Name:</label><input id="full_name" class="form-control form-control" type="text" name="full_name" /></div>
+                                <div class="mt-2"><label class="form-label form-label form-label">Birthdate:</label><input class="form-control form-control" type="date" /></div>
+                                <div class="mt-2"><label class="form-label form-label">Social Security No.:</label><input id="address" class="form-control form-control" type="text" name="socialsecurity" /></div>
+                                <div class="mt-2"><label class="form-label form-label">Email:</label><input id="address" class="form-control form-control" type="text" name="email" /></div>
+                                <div class="mt-2"><label class="form-label form-label">Phone / Mobile Number:</label><input id="phone" class="form-control form-control" type="text" name="phone" /></div>
+                                <div class="mt-2"><label class="form-label form-label">Phone Carrier:</label><input id="address" class="form-control form-control" type="text" name="phone_carrier" /></div>
                                 <div class="row mt-2">
-                                    <div class="col-3 col-md-2 col-lg-2"><label class="form-label">Age:</label>
-                                        <div class="input-container"><input id="age" class="form-control" type="text" name="age" /></div>
+                                    <div class="col-3 col-md-2 col-lg-2"><label class="form-label form-label">Age:</label>
+                                        <div class="input-container"><input id="age" class="form-control form-control" type="text" name="age" /></div>
                                     </div>
                                     <div class="col-lg-9">
-                                        <div id="input-container"><input class="px-2 form-check-input" type="radio" name="gender" value="male" /><label class="form-label form-label form-label px-2 form-label form-label form-check-label radio-lb">Male</label><input class="px-2 form-check-input" type="radio" name="gender" value="female" /><label class="form-label form-label form-label px-2 form-label form-label form-check-label radio-lb">Female</label></div>
+                                        <div id="input-container"><input class="px-2 form-check-input" type="radio" name="gender" value="male" /><label class="form-label form-label form-label form-label px-2 form-label form-label form-check-label radio-lb">Male</label><input class="px-2 form-check-input" type="radio" name="gender" value="female" /><label class="form-label form-label form-label form-label px-2 form-label form-label form-check-label radio-lb">Female</label></div>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="step">
                                 <h4>Provide us with your credit card information</h4>
-                                
-                                <div class="bg-white rounded-lg shadow-sm p-5">
-                                    <!-- Credit card form tabs -->
-                                    <ul role="tablist" class="nav bg-light nav-pills rounded-pill nav-fill mb-3">
-                                      <li class="nav-item">
-                                        <a data-toggle="pill" href="#nav-tab-card" class="nav-link active rounded-pill">
-                                                            <i class="fa fa-credit-card"></i>
-                                                            Credit Card
-                                                        </a>
-                                      </li>
+                                <div class="bg-white shadow-sm rounded-lg p-5">
+                                    <ul class="nav nav-pills nav-fill bg-light rounded-pill mb-3" role="tablist">
+                                        <li class="nav-item" role="presentation"><a class="nav-link active rounded-pill" role="tab" data-bs-toggle="pill" data-toggle="pill" href="#nav-tab-card"><i class="fa fa-credit-card"></i> Credit Card </a></li>
                                     </ul>
-                                    <!-- End -->
-                            
-                            
-                                    <!-- Credit card form content -->
                                     <div class="tab-content">
-                            
-                                      <!-- credit card info-->
-                                      <div id="nav-tab-card" class="tab-pane fade show active">
-                                        <!-- <p class="alert alert-success">Some text success or error</p> -->
-                                        <form role="form">
-                                          <div class="form-group">
-                                            <label for="username">Full name (on the card)</label>
-                                            <input type="text" name="username" placeholder="Jeff Doe" required class="form-control">
-                                          </div>
-                                          <div class="form-group">
-                                            <label for="cardNumber">Card number</label>
-                                            <div class="input-group">
-                                              <input type="text" name="cardNumber" placeholder="Your card number" class="form-control" required>
-                                              <div class="input-group-append">
-                                                <span class="input-group-text text-muted">
-                                                                            <i class="fa fa-cc-visa mx-1"></i>
-                                                                            <i class="fa fa-cc-amex mx-1"></i>
-                                                                            <i class="fa fa-cc-mastercard mx-1"></i>
-                                                                        </span>
-                                              </div>
-                                            </div>
-
-                                            <div class="form-group">
-                                                <label for="username">Billing Address</label>
-                                                <input type="text" name="address" placeholder="Address 1" required class="form-control">
-                                              </div>
-
-                                          </div>
-                                          <div class="row">
-                                            <div class="col-sm-8">
-                                              <div class="form-group">
-                                                <label><span class="hidden-xs">Expiration</span></label>
-                                                <div class="input-group">
-                                                  <input type="number" placeholder="MM" name="" class="form-control" required>
-                                                  <input type="number" placeholder="YY" name="" class="form-control" required>
+                                        <div id="nav-tab-card" class="tab-pane active fade show" role="tabpanel">
+                                            <div class="form-group"><label class="form-label" for="username">Full name (on the card)</label><input class="form-control form-control" type="text" name="username" placeholder="Jeff Doe" required /></div>
+                                            <div class="form-group"><label class="form-label" for="cardNumber">Card number</label>
+                                                <div class="input-group"><input class="form-control form-control" type="text" name="cardNumber" placeholder="Your card number" required />
+                                                    <div class="input-group-text input-group-append"><span class="text-muted input-group-text"><i class="fa fa-cc-visa mx-1"></i><i class="fa fa-cc-amex mx-1"></i><i class="fa fa-cc-mastercard mx-1"></i></span></div>
                                                 </div>
-                                              </div>
+                                                <div class="form-group"><label class="form-label" for="username">Billing Address</label><input class="form-control form-control" type="text" name="address" placeholder="Address 1" required /></div>
                                             </div>
-                                            
-                                            <div class="col-sm-4">
-                                              <div class="form-group mb-4">
-                                                <label data-toggle="tooltip" title="Three-digits code on the back of your card">CVV
-                                                                            <i class="fa fa-question-circle"></i>
-                                                                        </label>
-                                                <input type="text" required class="form-control">
-                                              </div>
-                                            </div>
-                                            
-                            
-                            
-                            
-                                          </div>
-                                          
-                                          <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm"> Confirm  </button>
-                                        </form>
-                                      </div>
-                                      <!-- End -->
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <div class="form-group"><label class="form-label"><span class="hidden-xs">Expiration</span></label>
+                                                        <div class="input-group"><input class="form-control form-control" type="number" placeholder="MM" name required /><input class="form-control form-control" type="number" placeholder="YY" name required /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group mb-4"><label class="form-label" data-toggle="tooltip" title="Three-digits code on the back of your card">CVV <i class="fa fa-question-circle"></i></label><input class="form-control form-control" type="text" required /></div>
+                                                </div>
+                                            </div><button class="btn btn-primary shadow-sm subscribe btn-block rounded-pill" type="button"> Confirm </button>
+                                        </div>
                                     </div>
-                                    <!-- End -->
-                            
-                                  </div>
+                                </div>
                             </div>
-
-                            
-
                             <div class="step">
                                 <div class="mt-1">
                                     <div class="closing-text">
-                                        <h4>That&#39;s about it! Stay High!</h4><video width="560" height="315" controls loop>
+                                        <h4>Watch Video</h4><video width="560" height="315" controls loop>
                                             <source src="https://media.istockphoto.com/id/1194527657/video/payment-with-credit-card-swiping-credit-card.mp4?s=mp4-640x640-is&amp;k=20&amp;c=-3fuJco0v29sK75thHc8kQO0EXxiy1gvBazvigl5O_I=" type="video/mp4" />
                                         </video>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="step">
                                 <div class="mt-1">
                                     <div class="closing-text">
-                                        <h4>That&#39;s about it! Stay High!</h4>
+                                        <img src="assets/img/images/light_GIF.gif" style="width: 450px;" />
+                                        <h4>That&#39;s about it!</h4>
                                         <p> We will assess your information and will let you know soon </p>
                                         <p>Click on the submit button to continue.</p>
                                         <div class="col-lg-9">
-                                            <div id="input-container">
-                                                <input class="px-2 form-check-input" type="checkbox" name="agree" value="agree" />
-                                                <label class="form-label form-label form-label px-2 form-label form-label form-check-label radio-lb">I Agree To The Terms & Conditions</label>
-                                            </div>
+                                            <div id="input-container"><input class="px-2 form-check-input" type="checkbox" name="agree" value="agree" /><label class="form-label form-label form-label form-label px-2 form-label form-label form-check-label radio-lb">I Agree To The Terms &amp; Conditions</label></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
                             <div id="success">
                                 <div class="mt-5">
+                                    <img src="assets/img/images/light_GIF.gif" style="width: 450px;" />
                                     <h4>Success! We&#39;ll get back to you ASAP!</h4>
                                     <p> Phasellus tempus massa lacus, venenatis gravida sem condimentum non. </p><a class="back-link" href>Go back from the beginning ➜</a>
                                 </div>
                             </div>
                         </div>
-                        <div id="q-box__buttons">
-                            <button id="prev-btn" type="button" style="background: rgb(0, 53, 113);padding-right: 16px;margin-right: 7px;"> Previous</button>
-                            <button id="next-btn" type="button" style="background: rgb(0, 53, 113);padding-right: 16px;margin-right: 7px;"> Next</button>
-                            <button id="submit-btn" type="submit" style="background: rgb(0, 53, 113);padding-right: 16px;margin-right: 7px;">Done</button></div>
                     </form>
+                    <div id="q-box__buttons"><button id="prev-btn" type="button" style="background: rgb(0, 53, 113);padding-right: 16px;margin-right: 7px;"> Previous</button><button id="next-btn" type="button" style="background: rgb(0, 53, 113);padding-right: 16px;margin-right: 7px;"> Next</button><button id="submit-btn" type="submit" style="background: rgb(0, 53, 113);padding-right: 16px;margin-right: 7px;">Done</button></div>
                 </div>
             </div>
         </div>
