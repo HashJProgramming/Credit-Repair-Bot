@@ -29,25 +29,25 @@ https://credit-repair-bot.bss.design/diy.html
 GETSTARTED PAGE
 https://credit-repair-bot.bss.design/get-started.html
 
-[PERSONAL FORM]
+PERSONAL FORM
 https://credit-repair-bot.bss.design/personal-form.html
 
-[BUSINESS FORM]
+BUSINESS FORM
 https://credit-repair-bot.bss.design/business-form.html
 
-[PROCESS FORM]
+PROCESS FORM
 https://credit-repair-bot.bss.design/process.html
 
-[VIDEO PAGE]
+VIDEO PAGE
 https://credit-repair-bot.bss.design/video.html
 
-[WATCH PAGE]
+WATCH PAGE
 https://credit-repair-bot.bss.design/watch.html
 
-[CHEQUE PAGE]
+CHEQUE PAGE
 https://credit-repair-bot.bss.design/cheque.html
 
-[THANK YOU PAGES]
+THANK YOU PAGES
 https://credit-repair-bot.bss.design/thank-you-1.html
 https://credit-repair-bot.bss.design/thank-you-2.html
 https://credit-repair-bot.bss.design/thank-you-3.html
