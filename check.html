@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Demo - Credit Repair Bot</title>
+    <title>Cheque- Credit Repair Bot</title>
     <meta name="description" content="Credit Repair Bot">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Banner-Heading-Image-images.css">
     <link rel="stylesheet" href="assets/css/Features-Image-icons.css">
-    <link rel="stylesheet" href="assets/css/hash-multi-step-form.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider-swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Simple-Slider.css">
 </head>
@@ -38,54 +37,36 @@
             </div>
         </div>
     </nav>
-    <section class="py-4 py-xl-5">
-        <div class="container d-flex align-items-center min-vh-100" style="margin-top: -45px;">
-            <div class="row g-0 justify-content-center" style="margin-top: -50px;">
-                <div class="col-lg-4 offset-lg-1 mx-0 px-0">
-                    <div id="title-container" style="background: url('assets/img/images/home-bg-image-1.png'), rgb(0, 53, 113);"><img class="covid-image" src="assets/img/images/F1.png" style="opacity: 1;transform: rotateY(170deg);">
-                        <h2>Welcome</h2>
-                        <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus massa lacus, venenatis gravida sem condimentum non. Nam vitae commodo arcu. Phasellus ac orci accumsan ante vehicula aliquam.&nbsp;</strong></p>
-                    </div>
-                </div>
-                <div class="col-lg-7 mx-0 px-0">
-                    <div class="progress">
-                        <div class="bg-primary progress-bar progress-bar-striped progress-bar-animated" aria-valuemax="100" aria-valuemin="0" aria-valuenow="50" role="progressbar" style="width: 0%;"></div>
-                    </div>
-                    <div id="qbox-container" style="background: #ffffff;">
-                        <form id="form-wrapper" class="needs-validation" method="post" name="form-wrapper" novalidate="">
-                            <div id="steps-container">
-                                <div class="step">
-                                    <h4>Provide us with your personal information</h4>
-                                    <div class="mt-1"><label class="form-label form-label form-label form-label form-label form-label form-label form-label form-label form-label">Complete Name:</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="full_name" name="full_name"></div>
-                                    <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label form-label form-label form-label">Email:</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="email" id="email" name="email"></div>
-                                    <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label form-label form-label form-label">Phone / Mobile Number:</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="phone" name="phone"></div>
-                                    <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label form-label form-label form-label">Carrier:</label><input class="form-control form-control form-control form-control form-control form-control form-control form-control form-control form-control" type="text" id="Carrier" name="carrier"></div>
-                                </div>
-                                <div class="step">
-                                    <div class="mt-1">
-                                        <div class="closing-text">
-                                            <h4>That's about it!</h4>
-                                            <p> Phasellus tempus massa lacus, venenatis gravida sem condimentum non. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="success">
-                                    <div class="mt-5"><img src="assets/img/images/light_GIF.gif" style="width: 450px;">
-                                        <h4>Thank you for submitting your information to the Credit Repair Bot team.</h4>
-                                        <p> We appreciate your trust in our services and we will work diligently to help repair your credit. Our team will process your form and notify you via email and text message once the process is complete. If you have any further questions, please don't hesitate to reach out to us. </p>
-                                    </div>
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="accordion" role="tablist" id="accordion-1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1" style="background: rgb(0,80,170);color: rgb(255,255,255);">Personal Information</button></h2>
+                    <div class="accordion-collapse collapse show item-1 show item-1 show item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                        <div class="accordion-body">
+                            <h4 class="text-center">Provide us the following information</h4>
+                            <h6 class="text-center" style="margin-bottom: 20px;">Credit repair bot will issue no more than 6 at time</h6>
+                            <div class="mt-1">
+                                <div class="row">
+                                    <div class="col"><label class="form-label form-label form-label form-label form-label form-label form-label">Requester:</label><input type="text" id="full_name-2" class="form-control form-control form-control form-control form-control" name="cheque_name"></div>
+                                    <div class="col"><label class="form-label form-label form-label form-label form-label form-label form-label">Make checks payable to:</label><input type="text" id="full_name-3" class="form-control form-control form-control form-control form-control" name="cheque_name"></div>
                                 </div>
                             </div>
-                            <div id="q-box__buttons"><button id="prev-btn" class="btn btn-primary shadow-sm" type="button" style="background: rgb(0, 53, 113);margin-right: 7px;"> Previous</button><button id="next-btn" class="btn btn-primary shadow-sm" type="button" style="background: rgb(0, 53, 113);margin-right: 7px;"> Next</button><a href=""><button id="submit-btn" class="btn btn-primary shadow-sm" type="submit" style="background: rgb(0, 53, 113);margin-right: 7px;"> Done </button></a></div>
-                        </form>
+                            <div class="mt-1"><label class="form-label form-label form-label form-label form-label form-label form-label">Client name:</label><input type="text" id="full_name" class="form-control form-control form-control form-control form-control" name="client_name"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Name on account:</label><input type="text" id="address" class="form-control form-control form-control form-control form-control" name="name_account"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Address:</label><input type="text" id="phone" class="form-control form-control form-control form-control form-control" name="address"></div>
+                            <div class="mt-1"><label class="form-label form-label form-label form-label form-label form-label form-label">Bank name:</label><input type="text" id="full_name-1" class="form-control form-control form-control form-control form-control" name="bank_name"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Routing number:</label><input type="text" id="phone-1" class="form-control form-control form-control form-control form-control" name="bank_routing"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Account number:</label><input type="text" id="phone-2" class="form-control form-control form-control form-control form-control" name="phone"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">First check amount:</label><input type="text" id="phone-3" class="form-control form-control form-control form-control form-control" name="amount"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Date of check:&nbsp;</label><input class="form-control" type="date"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Each additional check amounts:</label><input type="text" id="phone-4" class="form-control form-control form-control form-control form-control" name="amount"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Requiring:</label><input class="form-control" type="date"></div>
+                            <div class="mt-2"><label class="form-label form-label form-label form-label form-label form-label form-label">Note: Please ensure that you provide accurate information for processing. Thank you for your cooperation.</label></div><button class="btn btn-primary" type="submit" style="margin-left: 50%;">Submit</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="preloader-wrapper">
-            <div id="preloader"></div>
-            <div class="preloader-section section-left"></div>
-            <div class="preloader-section section-right"></div>
         </div>
     </section>
     <footer style="background: #003571;color: rgb(255,255,255);">
@@ -109,7 +90,6 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/bold-and-bright.js"></script>
-    <script src="assets/js/hash-multi-step-form.js"></script>
     <script src="assets/js/Simple-Slider-swiper-bundle.min.js"></script>
     <script src="assets/js/Simple-Slider.js"></script>
 </body>

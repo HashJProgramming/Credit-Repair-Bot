@@ -16,16 +16,8 @@
   height: calc(var(--bs-icon-size) * 1.5);
 }
 
-.bs-icon-sm {
-  --bs-icon-size: 1rem;
-}
-
 .bs-icon-md {
   --bs-icon-size: 1.5rem;
-}
-
-.bs-icon-lg {
-  --bs-icon-size: 2rem;
 }
 
 .bs-icon-xl {
