@@ -44,8 +44,8 @@ https://credit-repair-bot.bss.design/video.html
 WATCH PAGE
 https://credit-repair-bot.bss.design/watch.html
 
-CHEQUE PAGE
-https://credit-repair-bot.bss.design/cheque.html
+CHECK PAGE
+https://credit-repair-bot.bss.design/check.html
 
 THANK YOU PAGES
 https://credit-repair-bot.bss.design/thank-you-1.html
