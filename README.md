@@ -47,9 +47,11 @@ https://credit-repair-bot.bss.design/watch.html
 CHECK PAGE
 https://credit-repair-bot.bss.design/check.html
 
-THANK YOU PAGES
+THANK YOU PAGE 1
 https://credit-repair-bot.bss.design/thank-you-1.html
 
+THANK YOU PAGE 2
 https://credit-repair-bot.bss.design/thank-you-2.html
 
+THANK YOU PAGE 3
 https://credit-repair-bot.bss.design/thank-you-3.html

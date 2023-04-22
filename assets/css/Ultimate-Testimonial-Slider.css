@@ -1,0 +1,105 @@
+#carousel-t {
+  background-color: #fff;
+}
+
+#carousel-t .testimonial-content {
+  margin-top: 15px;
+}
+
+#carousel-t .carousel-control-next, .carousel-control-prev {
+  width: 13%;
+}
+
+#carousel-t .carousel-control-prev {
+  background: -webkit-linear-gradient(left, rgba(255,0,0,0) 70%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right, rgb(255,255,255) 70%,rgba(255,255,255,0) 100%);
+  opacity: 1;
+}
+
+#carousel-t .carousel-control-next {
+  background: -webkit-linear-gradient(right, rgba(255,0,0,0) 70%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to left, rgb(255,255,255) 70%,rgba(255,255,255,0) 100%);
+  opacity: 1;
+}
+
+#carousel-t .carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #140000;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .2;
+  transition: opacity .6s ease;
+  border-radius: 50%;
+}
+
+#carousel-t .carousel-indicators .active {
+  opacity: .5;
+}
+
+#carousel-t .carousel-indicators {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#carousel-t .signature {
+  font-size: 24px;
+  font-style: normal;
+  font-family: 'Roboto Condensed', Arial, Sans;
+  font-weight: 700;
+  margin: 0;
+}
+
+#carousel-t .date {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#carousel-t p {
+  font-size: 18px;
+  font-family: 'Roboto Condensed', Arial, Sans;
+}
+
+#carousel-t .rating {
+  background-color: #2d80ff;
+  width: 56px;
+  display: block;
+  margin: 15px auto;
+  color: white;
+  border-radius: 25px;
+}
+
+#carousel-t .icon.ion-android-arrow-dropright-circle {
+  font-size: 40px;
+  color: rgba(0,0,0,0.15);
+  transition: color .3s;
+  height: 100%;
+  width: 100%;
+}
+
+#carousel-t .icon.ion-android-arrow-dropright-circle:hover {
+  color: rgba(0,0,0,0.35);
+  transition: color .3s;
+}
+
+#carousel-t .icon.ion-android-arrow-dropleft-circle {
+  font-size: 40px;
+  color: rgba(0,0,0,0.15);
+  height: 100%;
+  width: 100%;
+}
+
+#carousel-t .icon.ion-android-arrow-dropleft-circle:hover {
+  color: rgba(0,0,0,0.35);
+  transition: color .3s;
+}
+
