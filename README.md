@@ -55,3 +55,12 @@ https://credit-repair-bot.bss.design/thank-you-2.html
 
 THANK YOU PAGE 3
 https://credit-repair-bot.bss.design/thank-you-3.html
+
+DISPUTE PAGE 1
+https://credit-repair-bot.bss.design/dispute-page-1.html
+
+DISPUTE PAGE 2
+https://credit-repair-bot.bss.design/dispute-page-2.html
+
+DISPUTE PAGE 3
+https://credit-repair-bot.bss.design/dispute-page-3.html
